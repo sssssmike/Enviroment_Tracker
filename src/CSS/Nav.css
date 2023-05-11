@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Itim&family=Roboto+Flex&display=swap');
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2EAF7D;
+    padding: 20px 80px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .06);
+    width: 100%;
+}
+
+.logo{
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar li {
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.navBar a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.navBar li a:hover{
+    color: #00FFCA;
+}
+
+.navBar li a:hover::after{
+    content: "";
+    background: #00FFCA;
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    left: 20px;
+    bottom: -4px;
+}
+

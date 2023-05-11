@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Itim&family=Roboto+Flex&display=swap');
+
+.App {
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background: #05BFDB;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}

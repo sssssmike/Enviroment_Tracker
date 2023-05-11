@@ -1,0 +1,72 @@
+
+
+body{
+  background-image: url("../resources/parkimage.jpg");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+}
+
+.login-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.login-container input {
+  margin: 5px;
+  width: 30vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+}
+
+.type-1 {
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    padding:10px;
+    border-radius:10px;
+}
+  
+.type-1:hover {
+  border: 1px solid #aaa;
+}
+
+
+.button1 {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #C1F6ED;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 30vh;
+  font-size: 18px;
+  font-weight: bolder;
+  }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.button1:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #22C59B 0%, #51DF63 51%, #22C59B 100%);
+}
